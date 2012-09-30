@@ -1,0 +1,230 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F85877D814410473002A5C44 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F85877D714410473002A5C44 /* main.cpp */; };
+		F85877E114410491002A5C44 /* NLTmxMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F85877E014410491002A5C44 /* NLTmxMap.cpp */; };
+		F85877E41441078B002A5C44 /* map1.tmx in CopyFiles */ = {isa = PBXBuildFile; fileRef = F85877E314410779002A5C44 /* map1.tmx */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F85877D114410472002A5C44 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				F85877E41441078B002A5C44 /* map1.tmx in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F833B74616187A460082E425 /* rapidxml_iterators.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = rapidxml_iterators.hpp; path = RapidXML/rapidxml_iterators.hpp; sourceTree = "<group>"; };
+		F833B74716187A460082E425 /* rapidxml_print.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = rapidxml_print.hpp; path = RapidXML/rapidxml_print.hpp; sourceTree = "<group>"; };
+		F833B74816187A460082E425 /* rapidxml_utils.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = rapidxml_utils.hpp; path = RapidXML/rapidxml_utils.hpp; sourceTree = "<group>"; };
+		F833B74916187A460082E425 /* rapidxml.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = rapidxml.hpp; path = RapidXML/rapidxml.hpp; sourceTree = "<group>"; };
+		F85877D314410472002A5C44 /* TestNLTmxMap */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestNLTmxMap; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85877D714410473002A5C44 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F85877E014410491002A5C44 /* NLTmxMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NLTmxMap.cpp; sourceTree = "<group>"; };
+		F85877E214410498002A5C44 /* NLTmxMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLTmxMap.h; sourceTree = "<group>"; };
+		F85877E314410779002A5C44 /* map1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = map1.tmx; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F85877D014410472002A5C44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F833B74516187A2C0082E425 /* RapidXML */ = {
+			isa = PBXGroup;
+			children = (
+				F833B74616187A460082E425 /* rapidxml_iterators.hpp */,
+				F833B74716187A460082E425 /* rapidxml_print.hpp */,
+				F833B74816187A460082E425 /* rapidxml_utils.hpp */,
+				F833B74916187A460082E425 /* rapidxml.hpp */,
+			);
+			name = RapidXML;
+			sourceTree = "<group>";
+		};
+		F85877C814410472002A5C44 = {
+			isa = PBXGroup;
+			children = (
+				F833B74516187A2C0082E425 /* RapidXML */,
+				F85877D614410472002A5C44 /* TestNLTmxMap */,
+				F85877D414410472002A5C44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F85877D414410472002A5C44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F85877D314410472002A5C44 /* TestNLTmxMap */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F85877D614410472002A5C44 /* TestNLTmxMap */ = {
+			isa = PBXGroup;
+			children = (
+				F85877E314410779002A5C44 /* map1.tmx */,
+				F85877D714410473002A5C44 /* main.cpp */,
+				F85877E014410491002A5C44 /* NLTmxMap.cpp */,
+				F85877E214410498002A5C44 /* NLTmxMap.h */,
+			);
+			path = TestNLTmxMap;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F85877D214410472002A5C44 /* TestNLTmxMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F85877DD14410473002A5C44 /* Build configuration list for PBXNativeTarget "TestNLTmxMap" */;
+			buildPhases = (
+				F85877CF14410472002A5C44 /* Sources */,
+				F85877D014410472002A5C44 /* Frameworks */,
+				F85877D114410472002A5C44 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestNLTmxMap;
+			productName = TestNLTmxMap;
+			productReference = F85877D314410472002A5C44 /* TestNLTmxMap */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F85877CA14410472002A5C44 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F85877CD14410472002A5C44 /* Build configuration list for PBXProject "TestNLTmxMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F85877C814410472002A5C44;
+			productRefGroup = F85877D414410472002A5C44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F85877D214410472002A5C44 /* TestNLTmxMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F85877CF14410472002A5C44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85877D814410473002A5C44 /* main.cpp in Sources */,
+				F85877E114410491002A5C44 /* NLTmxMap.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F85877DB14410473002A5C44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F85877DC14410473002A5C44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F85877DE14410473002A5C44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F85877DF14410473002A5C44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F85877CD14410472002A5C44 /* Build configuration list for PBXProject "TestNLTmxMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85877DB14410473002A5C44 /* Debug */,
+				F85877DC14410473002A5C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F85877DD14410473002A5C44 /* Build configuration list for PBXNativeTarget "TestNLTmxMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85877DE14410473002A5C44 /* Debug */,
+				F85877DF14410473002A5C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F85877CA14410472002A5C44 /* Project object */;
+}
