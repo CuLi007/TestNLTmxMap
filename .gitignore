@@ -12,7 +12,3 @@ build/*
 *.pbxuser
 *.xcworkspace
 xcuserdata
-
-# svn & cvs
-.svn
-CVS
